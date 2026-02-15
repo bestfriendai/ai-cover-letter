@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "AI Cover Letter",
+    "slug": "ai-cover-letter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4338CA"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.startupstartup.aicoverletter"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4338CA"
+      },
+      "package": "com.startupstartup.aicoverletter"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
